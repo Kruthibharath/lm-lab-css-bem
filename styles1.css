@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+}
+.card {
+  background-color: #cdc9c9;
+  border-radius: 8px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+.card__title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+.card__title--bold {
+  font-weight: bold;
+}
+.card__content {
+  color: #666;
+  font-size: 1rem;
+}
+.card__image {
+  width: 65%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+#yoda {
+  width: 80%;
+}
